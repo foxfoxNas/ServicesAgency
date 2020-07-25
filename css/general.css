@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+:root {
+  --light-red: #f95157;
+  --dark-blue: #1b2f4d;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #f8f8f8;
+}
+
+.section-title {
+  color: var(--dark-blue);
+  font-size: 50px;
+  font-weight: 800;
+  width: 40%;
+}
+
+.container {
+  width: 1100px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  max-width: 100%;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 2;
+  z-index: 111;
+}
+
+.logo span {
+  padding-left: 10px;
+}
+
+.button {
+  color: white;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 28px;
+  background-color: var(--light-red);
+  border: none;
+  border-radius: 23px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.button:active, .button:hover, .button:focus {
+  background-color: var(--dark-blue);
+}
+
+.button-small {
+  width: 140px;
+  height: 45px;
+}
+
+.button-large {
+  width: 100%;
+  height: 45px;
+}
+
+.button-white {
+  background-color: #fff;
+  color: var(--light-red);
+}
+
+.button-white:active, .button-white:hover, .button-white:focus {
+  background-color: var(--dark-blue);
+  color: #fff;
+}
+
+.contact-us-form input,
+.contact-us-form textarea {
+  width: 100%;
+  resize: none;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 15px;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 0 20px;
+}
+
+.contact-us-form input::-webkit-input-placeholder,
+.contact-us-form textarea::-webkit-input-placeholder {
+  color: #c3c3c3;
+}
+
+.contact-us-form input:-ms-input-placeholder,
+.contact-us-form textarea:-ms-input-placeholder {
+  color: #c3c3c3;
+}
+
+.contact-us-form input::-ms-input-placeholder,
+.contact-us-form textarea::-ms-input-placeholder {
+  color: #c3c3c3;
+}
+
+.contact-us-form input::placeholder,
+.contact-us-form textarea::placeholder {
+  color: #c3c3c3;
+}
+
+.contact-us-form input:active::-webkit-input-placeholder, .contact-us-form input:hover::-webkit-input-placeholder, .contact-us-form input:focus::-webkit-input-placeholder,
+.contact-us-form textarea:active::-webkit-input-placeholder,
+.contact-us-form textarea:hover::-webkit-input-placeholder,
+.contact-us-form textarea:focus::-webkit-input-placeholder {
+  color: black;
+  opacity: 0.5;
+}
+
+.contact-us-form input:active:-ms-input-placeholder, .contact-us-form input:hover:-ms-input-placeholder, .contact-us-form input:focus:-ms-input-placeholder,
+.contact-us-form textarea:active:-ms-input-placeholder,
+.contact-us-form textarea:hover:-ms-input-placeholder,
+.contact-us-form textarea:focus:-ms-input-placeholder {
+  color: black;
+  opacity: 0.5;
+}
+
+.contact-us-form input:active::-ms-input-placeholder, .contact-us-form input:hover::-ms-input-placeholder, .contact-us-form input:focus::-ms-input-placeholder,
+.contact-us-form textarea:active::-ms-input-placeholder,
+.contact-us-form textarea:hover::-ms-input-placeholder,
+.contact-us-form textarea:focus::-ms-input-placeholder {
+  color: black;
+  opacity: 0.5;
+}
+
+.contact-us-form input:active::placeholder, .contact-us-form input:hover::placeholder, .contact-us-form input:focus::placeholder,
+.contact-us-form textarea:active::placeholder,
+.contact-us-form textarea:hover::placeholder,
+.contact-us-form textarea:focus::placeholder {
+  color: black;
+  opacity: 0.5;
+}
+
+.contact-us-form input {
+  height: 50px;
+}
+
+.contact-us-form textarea {
+  padding: 17px 20px;
+}
+
+.text-with-red-line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.text-with-red-line li:nth-child(2n) {
+  padding-left: 50px;
+}
+
+.text-with-red-line li p {
+  color: #999;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 2;
+  position: relative;
+  display: inline-block;
+  padding-left: 40px;
+}
+
+.text-with-red-line li p:before {
+  content: "";
+  position: absolute;
+  left: 10px;
+  top: 14px;
+  border: none;
+  width: 20px;
+  height: 6px;
+  background-color: var(--light-red);
+  border-radius: 3px;
+}
+
+.red-letters {
+  color: var(--light-red);
+}
+
+.subtitle-container p {
+  color: #999;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  padding-bottom: 15px;
+}
+/*# sourceMappingURL=general.css.map */
